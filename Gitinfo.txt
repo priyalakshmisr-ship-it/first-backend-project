@@ -1,4 +1,4 @@
-git init - This command changes a normal folder into a git folder or you can say initializes git in a folder that will ultimately give us the capabilities to use git(which is using branches, checkpoints and uploading seamlessly to github/gitlab)
+git init - This command changes a normal folder into a git folder or you can say initializes git in a folder that will ultimately give us the capabilities to use git(which is using branches, checkpoints and uploading seamlessly to github/gitlab). We only run this command for the first time in a folder.
 
 To save in git means to create a checkpoint in git. The commands we need to create a checkpoint in Git is-
 
@@ -11,3 +11,9 @@ The ideal way to give messages in commits are like this-
 "DELETE:Whatever u have deleted"
 "FIX:Whatever u have fixed"
 "UPDATE:Whatever u have updated"
+
+git remote add origin our_link - This is the command which is used to connect our local folder in our own computer with that of the github folder that is there online which can be viewed by others. We only write this command for the first time in a folder.
+
+git branch - This command is used to see which branch you are in and it will also list all the branches that exist for this folder/project but the branch we are in will be marked with an asterisk.
+
+git push origin name_of_ur_branch
