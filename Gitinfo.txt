@@ -1,0 +1,13 @@
+git init - This command changes a normal folder into a git folder or you can say initializes git in a folder that will ultimately give us the capabilities to use git(which is using branches, checkpoints and uploading seamlessly to github/gitlab)
+
+To save in git means to create a checkpoint in git. The commands we need to create a checkpoint in Git is-
+
+1. git add . - It actually tells the folder what are the things that needs to be saved. It adds the files to the staging area.
+Staging area is a place where files move forward to get saved.
+2. git commit -m "Our checkpoint message"
+
+The ideal way to give messages in commits are like this-
+"ADD:Whatever u have added"
+"DELETE:Whatever u have deleted"
+"FIX:Whatever u have fixed"
+"UPDATE:Whatever u have updated"

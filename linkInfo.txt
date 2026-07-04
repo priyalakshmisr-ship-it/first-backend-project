@@ -1,0 +1,56 @@
+1.(http/https)://2.(www.something.com):3(port)/4.(routes/endpoints)?5.(query parameters)[apikey={value}&singer=The%20Weeknd]
+
+1. protocol - set of rules that the website has to follow to send or receive info from us
+2. domain - it is the ip address under a familiar name which we call the domain 
+3. port - it is the specific part of the computer that is exposed to the internet.
+Up until point number 3 these were the necessary parts of the link after this everything is optional
+
+
+4. routes/endpoints - these are specific locations or webpages within the same website that gives us information and sometimes it can also take information
+This part of the link might not be necessary but it is there in 99% of the websites around the world.
+
+5. query parameters - they are like the inputs of a function we can give whatever we want as a variable and the link just like a function would do, it gives us the information according to that input and then again sometimes it can also take information.
+Unlike functions where we can directly give the value in case of query parameters of a link we need to give the name of the variable then an equals to sign and then the value.
+
+If our link needs to have commas or spaces we replace those characters with some other special characters that are allowed in a link so for space it is %20 and for comma it is %2c.
+
+
+These are all visible parts of a link.
+
+Now comes additional information of a link that is not visible in the link itself.
+So the sensitive informations of a link are sent via headers.
+
+6. headers -  they are the hidden information of a link that is not visible in the link itself mostly due to security reasons.
+There are multiple parts of the headers-
+a. Content-Type: It shows us the data type of the information that we are trying to send or receive
+b. Authorization : The most important part of headers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Things done in frontend -
+Todo list with DOM manipulation but no local storage
+Stop watch with set and clear interval
+Find the weather of various countries using API and local storage
+Date object has not been done
+Math object done
+CORS error is not done 
+
+Things needed to be done in our frontend - 
+Basic, Bearer token authentication
+CORS error in API
+Date object in more details along with time formats
+Callback function/ Anonymous functions

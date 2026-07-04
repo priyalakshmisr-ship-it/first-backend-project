@@ -1,0 +1,12 @@
+There are two types of requests-
+1. GET request
+2. POST request
+
+
+From the perspective of frontend - 
+GET request is receiving data from the backend server of someone( it can be dogceo or it can be the weather api or it can be our own backend as well)
+POST request is giving data or sending data from our frontend to the backend of someone(it can be someone else's backend or it can be our own backend as well)
+
+From the perspective of backend - 
+GET request means giving data to the frontend of someone or maybe our own frontend.
+POST request means receiving data from the frontend to our or someone else's backend.

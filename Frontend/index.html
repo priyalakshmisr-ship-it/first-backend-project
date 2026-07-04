@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>This is our home page</h1>
+        <button onclick="receive()">API Call to receive</button>
+        <button onclick="send()">API Call to send</button>
+    </center>
+    <script>
+        async function receive(){
+            var response = await fetch("http://localhost:2530/ourFirstApi"
+                // {
+                //     "method" : "GET"
+                // }
+            )
+            var jsonData = await response.json()
+            console.log(jsonData)
+        }
+
+        //By default the method is GET so for the previous get requests that you did, you did not write anything inside the method.
+        
+        async function send(){
+            var jsonObject = {
+                "name" : "Mihir",
+                "name2" : "Shivam"
+            }
+            await fetch("http://localhost:2530/ourFirstPost",
+                {
+                    "method" : "POST",
+                    "headers" : {
+                        "Content-Type" : "application/json"
+                    },
+                    "body" : JSON.stringify(jsonObject)
+                }
+            )
+            // var jsonData = await response.json()
+            // console.log(jsonData)
+        }
+    </script>
+</body>
+</html>
