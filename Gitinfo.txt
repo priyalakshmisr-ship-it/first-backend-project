@@ -16,4 +16,12 @@ git remote add origin our_link - This is the command which is used to connect ou
 
 git branch - This command is used to see which branch you are in and it will also list all the branches that exist for this folder/project but the branch we are in will be marked with an asterisk.
 
-git push origin name_of_ur_branch
+git push origin name_of_ur_branch - This command allows us to upload all the changes that we have made in our local computer's folder to the Github repo or folder.
+
+git checkout -b name_of_the_new_branch - This command creates a new branch from the branch we are in and the new branch is like a child branch of the parent branch and then the child branch will have the contents of the parent branch from the point of their creation up until the point this child branch was created but the child branch will not have the new changes the parent branch has made after the branch was created.
+
+git checkout name_of_the_old_branch - This command takes us to the old branch.
+
+git status - It shows us all the information about the current git folder, so we can see the branch we are in, what are the things that are not saved and so on. 
+
+git log - It shows us the last two or three commits(checkpoints) that we did for this branch. To come out of the log window we need to press the q alphabet button on the keyboard.
