@@ -25,3 +25,8 @@ git checkout name_of_the_old_branch - This command takes us to the old branch.
 git status - It shows us all the information about the current git folder, so we can see the branch we are in, what are the things that are not saved and so on. 
 
 git log - It shows us the last two or three commits(checkpoints) that we did for this branch. To come out of the log window we need to press the q alphabet button on the keyboard.
+
+git merge is done in two steps-
+At the very beginning we need to go to the branch from which we want information, then in that branch we do a git pull to get all the latest changes pertaining to that branch.
+And then we checkout and go to the branch that is supposed to receive the information from the other branch and then in that branch we write,
+git merge name_of_the_branch_from_which_we_want_the_info - This command will merge all the contents of the branch to the branch we checked out to.
